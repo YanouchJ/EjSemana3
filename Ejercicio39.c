@@ -6,6 +6,10 @@ int main(int argc, char const *argv[])
 
     printf("39. Serie de FIBONACCI hasta llegar o sobrepasar el número 10000. \n\n ");
     
+    while (serie<=10000)
+    {
+        printf("%d", serie);
+    }
 
     return 0;
 }
