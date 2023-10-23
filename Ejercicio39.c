@@ -9,6 +9,9 @@ int main(int argc, char const *argv[])
     while (serie<=10000)
     {
         printf("%d", serie);
+        a=b;
+        b=serie;
+        serie=a+b;
     }
 
     return 0;
