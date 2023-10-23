@@ -13,6 +13,16 @@ int main(int argc, char const *argv[])
         printf("Ingrese un número entero: ");
         scanf("%d", &num);
     }
-    
+     
+        printf("Los componentes numéricos múltiplos de %d son: ", num);
+        
+     for (int i = 1; i <= num; i++)
+     {
+        if (num % i == 0)
+        {
+            printf("%d", i);
+        }
+     }
+     
     return 0;
 }
