@@ -9,6 +9,13 @@ int main(int argc, char const *argv[])
     printf("Ingrese un numero entero: ");
     scanf("%d", &num);
 
-    
+    while (num<=0)
+    {
+        printf("El número ingresado debe ser un entero positivo. \n");
+        printf("Ingrese un número entero: ");
+        scanf("%d", &num);
+    }
+
+
     return 0;
 }
